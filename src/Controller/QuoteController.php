@@ -69,7 +69,7 @@ class QuoteController extends AbstractController
     }
 
     /**
-     * @Route("/quote/", name="get_quote_by_id", methods={"GET"})
+     * @Route("/quote/", name="get_quotes_by_terms", methods={"GET"})
      * @return Response
      */
     public function findQuoteByTerms()
